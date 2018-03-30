@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { GreenTool } from '../models/greenTool.model';
 
 @Component({
@@ -8,6 +8,11 @@ import { GreenTool } from '../models/greenTool.model';
 })
 export class GreenScoreComponent {
   @Input() childScoreCard: boolean;
+  @Output() clickedShowScoreCard = new EventEmitter();
+
+  showScoreCard() {
+    this.clickedShowScoreCard.emit();
+  }
   constructor() { }
 
   ngOnInit() {

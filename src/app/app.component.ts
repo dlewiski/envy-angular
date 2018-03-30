@@ -20,4 +20,8 @@ export class AppComponent {
     new GreenTool("water bottle", "Buy and reuse your own water bottle to save money and raw plasic. Buying bottled water is costly and harmful to the environment", 5)
   ];
 
+
+  showScoreCard(){
+    this.scoreCard = true;
+  }
 }
