@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { StoryDisplayComponent } from './story-display/story-display.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StoryDisplayComponent
   ],
   imports: [
     BrowserModule
