@@ -9,6 +9,8 @@ import { GreenTool } from './models/greenTool.model';
 })
 export class AppComponent {
   title = 'ENVY';
+  environmentalImpact = 100;
+  scoreCard = false;
 
   stories: GreenStory[] = [
   new GreenStory('Adiddas Recyled Yoga Line', 'clothing', 'http://www.greenmatters.com/news/2018/03/29/Z1yaU1T/adidas-yoga', 'http://media.greenmatters.com/1BrB7o/970x508/screenshot-twitter.com-2018.03.30-08-58-53-1522414745627.png')
