@@ -13,16 +13,13 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row" id="notFeaturedStories">
   <div *ngFor="let currentStory of childStoryList | notFeatured">
-    <div class="col-md-9">
+    <div class="col-md-4">
       <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
     </div>
-    <div class="col-md-3" style="background-color:yellow;">
+    <div class="col-md-2" style="background-color:yellow;">
       <p>{{currentStory.title}}</p>
-      <p>{{currentStory.description}}</p>
-      <p>BY {{currentStory.author}}</p>
-      <p>{{currentStory.age}} hours ago</p>
     </div>
   </div>
 </div>
