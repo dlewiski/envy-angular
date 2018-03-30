@@ -1,14 +1,22 @@
-## Planning
+## Planning (day 1)
 The purpose of this project is to create a website that will display trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of our natural resources. This app will also be a source for insight via trust worthy and verified data on environmental issues.
 
+### User stories (day 1)
 * As a user I want to be taken to a homepage with a clean nav bar, top sustainability stories, and your sustainability toolkit
 * As a user I want to click on these stories and be taken to a page where I can learn more about the featured article
 * As a user I want to be able to add a story to the sustainability stories database
 
-### Component structure
+### Component structure (day 1)
+* Nav bar
+* sustainability stories list
+* add story
+* sustainability toolkit
 
+### Models (day 1)
+* greenStory
+* greenTool
 
-### Cool features if there is time
+### Cool features if there is time (day 1)
 * connect to an API to display the worlds population in real time
 * display total carbon emissions for top 5 polluting countries
 
