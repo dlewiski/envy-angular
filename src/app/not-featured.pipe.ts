@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { GreenStory } from './models/greenStory.model';
 
 @Pipe({
-  name: "not-featured",
+  name: "notFeatured",
   pure: false
 })
 
