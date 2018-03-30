@@ -26,6 +26,5 @@ export class AppComponent {
 
   toggleScoreCard(){
     this.scoreCard = !this.scoreCard;
-    console.log(this.stories[0].featured);
   }
 }
