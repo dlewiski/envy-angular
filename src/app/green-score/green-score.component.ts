@@ -8,10 +8,10 @@ import { GreenTool } from '../models/greenTool.model';
 })
 export class GreenScoreComponent {
   @Input() childScoreCard: boolean;
-  @Output() clickedShowScoreCard = new EventEmitter();
+  @Output() clickedToggleScoreCard = new EventEmitter();
 
-  showScoreCard() {
-    this.clickedShowScoreCard.emit();
+  toggleScoreCard() {
+    this.clickedToggleScoreCard.emit();
   }
   constructor() { }
 

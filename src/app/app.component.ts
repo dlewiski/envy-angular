@@ -21,7 +21,11 @@ export class AppComponent {
   ];
 
 
-  showScoreCard(){
+  toggleScoreCard(){
+    if (this.scoreCard === false){
     this.scoreCard = true;
+    } else {
+    this.scoreCard = false;
+    }
   }
 }
