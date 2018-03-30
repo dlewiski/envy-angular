@@ -19,6 +19,9 @@ http://www.greenmatters.com/
 * greenStory
 * greenTool
 
+### Database (day 1)
+* get basic firebase going to store stories and user profiles/scores
+
 ### Cool features if there is time (day 1)
 * connect to an API to display the worlds population in real time
 * display total carbon emissions for top 5 polluting countries
