@@ -1,5 +1,12 @@
 <h1>Current Stories:</h1>
 <div *ngFor="let currentStory of childStoryList">
-  <p>{{currentStory.title}}</p>
-  <a href="{{currentStory.link}}"><img src="{{currentStory.image}}" alt="yoga"></a>
+  <div class="row">
+    <div class="col-md-9">
+      <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
+    </div>
+    <div class="col-md-3" style="background-color:yellow;">
+      <p>{{currentStory.title}}</p>
+      <p>{{currentStory.description}}</p>
+    </div>
+  </div>
 </div>
