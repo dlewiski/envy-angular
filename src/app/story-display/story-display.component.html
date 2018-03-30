@@ -2,7 +2,9 @@
 <div *ngFor="let currentStory of childStoryList">
   <div class="row">
     <div class="col-md-9">
-      <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
+      <div *ngIf="currentStory.featured">
+        <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
+      </div>
     </div>
     <div class="col-md-3" style="background-color:yellow;">
       <p>{{currentStory.title}}</p>

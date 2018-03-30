@@ -12,9 +12,12 @@ export class AppComponent {
   title = 'ENVY';
   environmentalImpact = 100;
   scoreCard = false;
+  featuredStory = null;
 
   stories: GreenStory[] = [
-  new GreenStory('Adiddas Recyled Yoga Line','Adidas has committed to making a dent in plastic pollution by teaming up with Parley for the Oceans to create products out of recycled plastic.', 'BRIAN SPAEN', 'clothing', 24, 'http://www.greenmatters.com/news/2018/03/29/Z1yaU1T/adidas-yoga', 'http://media.greenmatters.com/1BrB7o/970x508/screenshot-twitter.com-2018.03.30-08-58-53-1522414745627.png', true)
+  new GreenStory('You Can Fish Plastic From Amsterdams Canals On This Eco-Boat Tour','The company operates a fleet of ten boats made from recovered plastic.', 'DESIRÉE KAPLAN', 'waste', 3, 'http://www.greenmatters.com/community/2018/03/30/ZhFkv6/plastic-amsterdam-canals', 'http://media.greenmatters.com/Z2aQO7Y/770x404/pexels-photo-851039-1522433681590.jpeg', true),
+
+  new GreenStory('Adiddas Recyled Yoga Line','Adidas has committed to making a dent in plastic pollution by teaming up with Parley for the Oceans to create products out of recycled plastic.', 'BRIAN SPAEN', 'clothing', 24, 'http://www.greenmatters.com/news/2018/03/29/Z1yaU1T/adidas-yoga', 'http://media.greenmatters.com/1BrB7o/970x508/screenshot-twitter.com-2018.03.30-08-58-53-1522414745627.png', false)
 ];
 
   toolkit: GreenTool[] = [
@@ -24,5 +27,15 @@ export class AppComponent {
 
   toggleScoreCard(){
     this.scoreCard = !this.scoreCard;
+    console.log(this.stories[0].featured);
+  }
+
+  isFeaturedStory(stories){
+    this.stories.forEach(function(story) {
+      if (story.featured === true) {
+        this.featuredStory = story;
+      }
+    });
+    return this.featuredStory;
   }
 }
