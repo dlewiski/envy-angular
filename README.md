@@ -1,3 +1,10 @@
+## Planning
+The purpose of this project is to create a website that will display trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of our natural resources. This app will also be a source for insight via trust worthy and verified data.
+
+### Cool features if there is time
+* connect to an API to display the worlds population
+* display total carbon emissions for top 5 polluting countries
+
 # Envy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
