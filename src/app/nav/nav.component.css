@@ -3,5 +3,6 @@
 }
 
 nav {
-  border-bottom: 3px solid green;
+  border-bottom: 1.5px solid #67cac8;
+  text-align: center;
 }

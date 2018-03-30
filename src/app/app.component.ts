@@ -23,10 +23,6 @@ export class AppComponent {
 
 
   toggleScoreCard(){
-    if (this.scoreCard === false){
-    this.scoreCard = true;
-    } else {
-    this.scoreCard = false;
-    }
+    this.scoreCard = !this.scoreCard;
   }
 }
