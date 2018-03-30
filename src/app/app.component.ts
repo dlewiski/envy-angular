@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { GreenStory } from './models/greenStory.model';
 import { GreenTool } from './models/greenTool.model';
 
