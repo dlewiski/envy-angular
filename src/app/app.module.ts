@@ -7,6 +7,7 @@ import { StoryDisplayComponent } from './story-display/story-display.component';
 import { GreenToolkitComponent } from './green-toolkit/green-toolkit.component';
 import { GreenScoreComponent } from './green-score/green-score.component';
 import { NavComponent } from './nav/nav.component';
+import { FeaturedPipe } from './featured.pipe'
 
 
 @NgModule({

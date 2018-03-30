@@ -1,10 +1,8 @@
 <h1>Current Stories:</h1>
-<div *ngFor="let currentStory of childStoryList">
+<div *ngFor="let currentStory of childStoryList | featured">
   <div class="row">
     <div class="col-md-9">
-      <div *ngIf="currentStory.featured">
-        <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
-      </div>
+      <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
     </div>
     <div class="col-md-3" style="background-color:yellow;">
       <p>{{currentStory.title}}</p>

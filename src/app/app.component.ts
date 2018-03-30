@@ -12,7 +12,6 @@ export class AppComponent {
   title = 'ENVY';
   environmentalImpact = 100;
   scoreCard = false;
-  featuredStory = null;
 
   stories: GreenStory[] = [
   new GreenStory('You Can Fish Plastic From Amsterdams Canals On This Eco-Boat Tour','The company operates a fleet of ten boats made from recovered plastic.', 'DESIRÉE KAPLAN', 'waste', 3, 'http://www.greenmatters.com/community/2018/03/30/ZhFkv6/plastic-amsterdam-canals', 'http://media.greenmatters.com/Z2aQO7Y/770x404/pexels-photo-851039-1522433681590.jpeg', true),
@@ -28,14 +27,5 @@ export class AppComponent {
   toggleScoreCard(){
     this.scoreCard = !this.scoreCard;
     console.log(this.stories[0].featured);
-  }
-
-  isFeaturedStory(stories){
-    this.stories.forEach(function(story) {
-      if (story.featured === true) {
-        this.featuredStory = story;
-      }
-    });
-    return this.featuredStory;
   }
 }
