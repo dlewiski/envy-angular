@@ -1,3 +1,4 @@
-<p>
-  story-display works!
-</p>
+<h1>Current Stories:</h1>
+<div *ngFor="let currentStory of childStoryList">
+  <p>{{currentStory.title}}</p>
+</div>
