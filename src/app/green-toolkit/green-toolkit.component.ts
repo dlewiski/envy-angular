@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { GreenTool } from '../models/greenTool.model';
 
 @Component({
   selector: 'app-green-toolkit',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./green-toolkit.component.css']
 })
 export class GreenToolkitComponent implements OnInit {
-
+  @Input() childToolkit: GreenTool[];
   constructor() { }
 
   ngOnInit() {
