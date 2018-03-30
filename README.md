@@ -8,6 +8,8 @@ http://www.greenmatters.com/
 * As a user I want to be taken to a homepage with a clean nav bar, top sustainability stories, and your sustainability toolkit
 * As a user I want to click on these stories and be taken to a page where I can learn more about the featured article
 * As a user I want to be able to add a story to the sustainability stories database
+* As a user I want to be able to add tools to my tool kit
+* As a user I want to be a able to keep track of my environmental score
 
 ### Component structure (day 1)
 * Nav bar
