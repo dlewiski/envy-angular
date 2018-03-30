@@ -2,15 +2,15 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { GreenStory } from './models/greenStory.model';
 
 @Pipe({
-  name: "featured",
+  name: "not-featured",
   pure: false
 })
 
-export class FeaturedPipe implements PipeTransform {
+export class NotFeaturedPipe implements PipeTransform {
   transform(input: GreenStory[], args) {
     let output: GreenStory[] = [];
     for (let i = 0; i < input.length; i++) {
-      if (input[i].featured === true) {
+      if (input[i].featured === false) {
         output.push(input[i]);
       }
     }

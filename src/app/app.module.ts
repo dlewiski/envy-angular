@@ -8,7 +8,8 @@ import { StoryDisplayComponent } from './story-display/story-display.component';
 import { GreenToolkitComponent } from './green-toolkit/green-toolkit.component';
 import { GreenScoreComponent } from './green-score/green-score.component';
 import { NavComponent } from './nav/nav.component';
-import { FeaturedPipe } from './featured.pipe'
+import { FeaturedPipe } from './featured.pipe';
+import { NotFeaturedPipe } from './not-featured.pipe';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FeaturedPipe } from './featured.pipe'
     GreenToolkitComponent,
     GreenScoreComponent,
     NavComponent,
-    FeaturedPipe
+    FeaturedPipe,
+    NotFeaturedPipe
   ],
   imports: [
     BrowserModule
