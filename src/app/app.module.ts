@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { StoryDisplayComponent } from './story-display/story-display.component';
 import { GreenToolkitComponent } from './green-toolkit/green-toolkit.component';
 import { GreenScoreComponent } from './green-score/green-score.component';
+import { NavComponent } from './nav/nav.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { GreenScoreComponent } from './green-score/green-score.component';
     AppComponent,
     StoryDisplayComponent,
     GreenToolkitComponent,
-    GreenScoreComponent
+    GreenScoreComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
