@@ -1,3 +1,31 @@
-<p>
-  add-story works!
-</p>
+<h2>Add a Story:</h2>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="storyName">Name of story:</label>
+      <input class="form-control" id="storyName" #newStoryName>
+    </div>
+    <div class="form-group">
+      <label for="storyDescription">Description:</label>
+      <textarea rows="4" cols="50" class="form-control" id="storyDescription" #newStoryDescription>
+      </textarea>
+    </div>
+    <div class="form-group">
+      <label for="storyAuthor">Author:</label>
+      <input class="form-control" id="storyAuthor" #newStoryAuthor>
+    </div>
+    <div class="form-group">
+      <label for="storyAge">How old is the article?:</label>
+      <input class="form-control" placeholder="hours since published"id="storyAge" #newStoryAge>
+    </div>
+    <div class="form-group">
+      <label for="storyLink">Link to article:</label>
+      <input class="form-control" id="storyLink" #newStoryLink>
+    </div>
+    <div class="form-group">
+      <label for="storyImg">Image link:</label>
+      <input placeholder="url to image that will display" class="form-control" id="storyImg" #newStoryImg>
+    </div>
+    <button (click)="createStory(newStoryName.value, newStoryDescription.value, newStoryAuthor.value, newStoryAge.value, newStoryLink.value, newStoryImg.value); newStoryName.value=''; newStoryDescription.value=''; newStoryAuthor.value=''; newStoryAge.value=''; newStoryLink.value=''; newStoryImg.value='';" type="button" class="btn btn-success">ADD</button>
+  </form>
+</div>

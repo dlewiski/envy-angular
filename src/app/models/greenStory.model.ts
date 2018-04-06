@@ -1,3 +1,6 @@
 export class GreenStory {
-  constructor(public title: string, public description: string, public author: string, public type: string, public age: number, public link: string, public image: string, public featured: boolean) {};
+  type: string;
+  featured: boolean = false;
+
+  constructor(public title: string, public description: string, public author: string, public age: number, public link: string, public image: string) {};
 }

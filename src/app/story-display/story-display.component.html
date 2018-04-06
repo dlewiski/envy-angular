@@ -2,7 +2,7 @@
 <div *ngFor="let currentStory of stories | async">
   <div class="row">
     <div class="col-md-9">
-      <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="yoga"></a>
+      <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="article img"></a>
     </div>
     <div class="col-md-3" style="background-color:yellow;">
       <p>{{currentStory.title}}</p>
@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<div class="row" id="notFeaturedStories">
+<!-- <div class="row" id="notFeaturedStories">
   <span *ngFor="let currentStory of childStoryList | notFeatured">
     <div class="col-md-4">
       <a href="{{currentStory.link}}"><img src="{{currentStory.image}}" alt="yoga" class="img"></a>
@@ -22,4 +22,5 @@
       <p>{{currentStory.title}}</p>
     </div>
   </span>
-</div>
+</div> -->
+<app-add-story></app-add-story>

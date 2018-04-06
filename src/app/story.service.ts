@@ -15,4 +15,8 @@ export class StoryService {
     this.stories.push(story);
   }
 
+  getStories(){
+    return this.stories;
+  }
+
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GreenStory } from '../models/greenStory.model';
 import { Router } from '@angular/router';
 import { FirebaseListObservable } from 'angularfire2/database';
@@ -11,7 +11,6 @@ import { StoryService } from '../story.service';
   providers: [ StoryService ]
 })
 export class StoryDisplayComponent implements OnInit {
-  @Input() childStoryList: GreenStory[];
   stories: FirebaseListObservable<any[]>;
 
   constructor(private storyService:StoryService) { }
