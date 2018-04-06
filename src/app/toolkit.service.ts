@@ -6,8 +6,8 @@ import { GreenTool } from './models/greenTool.model';
 export class ToolkitService {
   tools: FirebaseListObservable<any[]>;
 
-  constructor(private database: AngularFireDatabase) {
-    this.tools = database.list('tools')
+  constructor(private database:AngularFireDatabase) {
+    this.tools = database.list('tools');
    }
 
    addTool(tool:GreenTool) {

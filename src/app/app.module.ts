@@ -16,6 +16,7 @@ import { NavComponent } from './nav/nav.component';
 import { FeaturedPipe } from './featured.pipe';
 import { NotFeaturedPipe } from './not-featured.pipe';
 import { AddToolComponent } from './add-tool/add-tool.component';
+import { AddStoryComponent } from './add-story/add-story.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     NavComponent,
     FeaturedPipe,
     NotFeaturedPipe,
-    AddToolComponent
+    AddToolComponent,
+    AddStoryComponent
   ],
   imports: [
     BrowserModule,

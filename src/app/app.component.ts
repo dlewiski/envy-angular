@@ -22,11 +22,6 @@ export class AppComponent {
   new GreenStory('This Device Can Double The "Green" Life Of Bananas To Reduce Waste','Have you ever had your bananas go brown while sitting on your kitchen counter? Sadly, youre not alone. Half of the produce we buy on average is thrown away, and bananas are one of the most popular in that group. In order to extend the life of these bananas and other fresh produce, one company has created a filter that prevents them from ripening.', 'BRIAN SPAEN', 'food', 21, 'http://www.greenmatters.com/food/2018/03/30/Z2wBmsE/produce-double-life-new-filter', 'http://media.greenmatters.com/Z1LXbpa/840x440/cereal-breakfast-meal-food-1522430846897.jpg', false)
 ];
 
-  toolkit: GreenTool[] = [
-    new GreenTool("water bottle", "Buy and reuse your own water bottle to save money and raw plasic. Buying bottled water is costly and harmful to the environment", 5)
-  ];
-
-
   toggleScoreCard(){
     this.scoreCard = !this.scoreCard;
   }

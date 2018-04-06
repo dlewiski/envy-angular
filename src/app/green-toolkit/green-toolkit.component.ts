@@ -16,7 +16,6 @@ export class GreenToolkitComponent implements OnInit {
 
   ngOnInit() {
     this.tools = this.toolkitService.tools;
-    console.log(this.tools);
   }
 
 }
