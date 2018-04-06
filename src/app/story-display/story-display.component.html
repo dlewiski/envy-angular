@@ -1,5 +1,7 @@
 <h1>Current Stories:</h1>
 <div *ngFor="let currentStory of stories | async">
+  <div class="card">
+
   <div class="row">
     <div class="col-md-9">
       <a href="{{currentStory.link}}"><img width="100%" src="{{currentStory.image}}" alt="article img"></a>
@@ -11,5 +13,6 @@
       <p>{{currentStory.age}} hours ago</p>
     </div>
   </div>
+</div>
 </div><br>
 <button routerLink="addstory" class="btn btn-info">Add a new sustianability story!</button>
