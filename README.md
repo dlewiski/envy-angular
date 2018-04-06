@@ -1,5 +1,5 @@
 ## Planning (day 1)
-The purpose of this project is to create a website that will display trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of our natural resources. This app will also be a source for insight via trust worthy and verified data on environmental issues.
+The purpose of this project is to create a website that will contain various tools to reduce your environmental impact while also displaying trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of our natural resources and providing tools for the user to take action in their own lives. This app will be a toolkit for individuals and communities to conserve resources and save money.
 
 ### Site inspiration and template
 http://www.greenmatters.com/
@@ -17,14 +17,14 @@ http://www.greenmatters.com/
 * add story
 * sustainability toolkit
 
-### Models (day 1)
+### Models (day 2)
 * greenStory
 * greenTool
 
-### Database (day 1)
+### Database (day 2)
 * get basic firebase going to store stories and user profiles/scores
 
-### Cool features if there is time (day 1)
+### Cool features if there is time (day 2)
 * connect to an API to display the worlds population in real time
 * display total carbon emissions for top 5 polluting countries
 
