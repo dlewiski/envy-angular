@@ -1,72 +1,82 @@
-## Planning (day 1 and day 2)
-The purpose of this project is to create a website that will contain various tools to reduce your environmental impact while also displaying trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of our natural resources and to also provide tools for the user to take action in their own lives. This app will be a toolkit for individuals and communities to conserve resources and save money.
+# ENVY
 
-### Site inspiration and template
-http://www.greenmatters.com/
+#### _By David Lewis_
 
-### User stories (day 1)
-* As a user I want to be taken to a homepage with a clean nav bar, top sustainability stories, and your sustainability toolkit
-* As a user I want to click on these stories and be taken to a page where I can learn more about the featured article
+## Description
+This web application contains various tools to reduce your environmental impact while also displaying trending and impactful sustainability stories across the globe. The goal for the application is to educate the masses about diverse actions different communities are taking to address overconsumption of natural resources and to also provide tools for the user to take action in their own lives. This app will be a toolkit for individuals and communities to conserve resources and save money.
 
-### User stories (day 2)
-* As a user I want to be able to add a story to the sustainability stories database
-* As a user I want to be able to add tools to my tool kit
-* As a user I want to be a able to keep track of my environmental score
+### Features
+* Display of sustainability articles
+* New articles can be added to the database and will be displayed on the main page
+* There is a toolkit that contains tools/tips for individuals to reduce their environmental impact
+* Users can add tips/tools to the database
+* There is an environmental score tracker that is linked to a score card
 
-### Component structure (day 1)
-* Nav bar
-* sustainability stories list
-* add story
-* sustainability toolkit
+## Setup/Installation Requirements
 
-### Models (day 1)
-* greenStory
-* greenTool
+#### You can view the application live by visiting:
+_https://envy-angular.firebaseapp.com/_
 
-### Database (day 2)
-* get basic firebase going to store stories and user profiles/scores
-* also store tools and their impact
+#### Or to deploy on local machine:
+Clone to your Desktop
 
-### Cool features if there is time (day 2)
-* connect to an API to display the worlds population in real time
-* display total carbon emissions for top 5 polluting countries
 
-### Database setup
-* create the file to store the api key from the database, this file will be located in the app folder, name it api-keys.ts
+`$ git clone https://github.com/dlewiski/doctor-doctor`
+
+In terminal, navigate to the root directory of the project
+
+`$ npm install`
+
+##### Setup Database (only necessary if deploying locally)
+* Create the file to store the api key from the database, this file will be located in the app folder, name it api-keys.ts
 * Sign in or create a new firebase account (link to firebase)
 * Click create a new web app, a box will appear with all the information needed to connect this app to the database you just created
-* copy all that information and add to the app/api-keys.ts file in the following format: (show screenshot or format)
+* Copy all that information and add to the app/api-keys.ts file in the following format: (show screenshot or format)
 * Then add all the dependencies, imports, etc (will copy these instructions at end of project)
-* change the rules in the firebase console
+* Change the rules in the firebase console
 * You will see two options, Cloud Firestore Beta and Realtime Database, click get started for Realtime Database
-* then select start in test mode, then click enable
-* you can double check this by going to the rules tab at the top of your database view and check to see that read and write are both set to true
+* Then select start in test mode, then click enable
+* You can double check this by going to the rules tab at the top of your database view and check to see that read and write are both set to true
 
+### Site inspiration and template
 
-# Envy
+http://www.greenmatters.com/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Support and Contact Details
 
-## Development server
+_To suggest changes, submit a pull request in the GitHub repository._
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* Angular CLI
+* Firebase
+* Node JS
+* Linter
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### License
 
-## Build
+*MIT License*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Copyright (c) 2018 **_David Lewis_**
 
-## Running unit tests
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
