@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GreenTool } from '../models/greenTool.model';
 import { FirebaseListObservable } from 'angularfire2/database';
+import { ToolkitService } from '../toolkit.service';
 
 @Component({
   selector: 'app-green-toolkit',

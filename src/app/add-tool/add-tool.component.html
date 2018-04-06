@@ -6,11 +6,11 @@
       <input id="toolName" #newToolName>
     </div>
     <div class="form-group">
-      <label for="toolDescription">Name of tool:</label>
+      <label for="toolDescription">Description:</label>
       <input id="toolDescription" #newToolDescription>
     </div>
     <div class="form-group">
-      <label for="toolEffectiveness">Name of tool:</label>
+      <label for="toolEffectiveness">Effectiveness:</label>
       <input id="toolEffectiveness" #newToolEffectiveness>
     </div>
     <button (click)="createTool(newToolName.value, newToolDescription.value, newToolEffectiveness.value); newToolName.value=''; newToolDescription.value=''; newToolEffectiveness.value='';" type="button" class="btn btn-success">ADD</button>
