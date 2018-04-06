@@ -13,6 +13,6 @@
       <label for="toolEffectiveness">Effectiveness:</label>
       <input id="toolEffectiveness" #newToolEffectiveness>
     </div>
-    <button (click)="createTool(newToolName.value, newToolDescription.value, newToolEffectiveness.value); newToolName.value=''; newToolDescription.value=''; newToolEffectiveness.value='';" type="button" class="btn btn-success">ADD</button>
+    <button (click)="createTool(newToolName.value, newToolDescription.value, newToolEffectiveness.value); newToolName.value=''; newToolDescription.value=''; newToolEffectiveness.value='';" type="button" class="btn btn-success" routerLink='../'>ADD</button>
   </form>
 </div>

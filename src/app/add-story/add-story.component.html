@@ -26,6 +26,6 @@
       <label for="storyImg">Image link:</label>
       <input placeholder="url to image that will display" class="form-control" id="storyImg" #newStoryImg>
     </div>
-    <button (click)="createStory(newStoryName.value, newStoryDescription.value, newStoryAuthor.value, newStoryAge.value, newStoryLink.value, newStoryImg.value); newStoryName.value=''; newStoryDescription.value=''; newStoryAuthor.value=''; newStoryAge.value=''; newStoryLink.value=''; newStoryImg.value='';" type="button" class="btn btn-success">ADD</button>
+    <button (click)="createStory(newStoryName.value, newStoryDescription.value, newStoryAuthor.value, newStoryAge.value, newStoryLink.value, newStoryImg.value); newStoryName.value=''; newStoryDescription.value=''; newStoryAuthor.value=''; newStoryAge.value=''; newStoryLink.value=''; newStoryImg.value='';" type="button" class="btn btn-success" routerLink=''>ADD</button>
   </form>
 </div>
