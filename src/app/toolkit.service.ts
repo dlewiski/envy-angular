@@ -18,11 +18,11 @@ export class ToolkitService {
      return this.tools;
    }
 
-   findTool(key: string) {
-     for (let i = 0; i < this.tools.length - 1; i++){
-       if (this.tools[i].$key === key) {
-         return this.tools[i];
-       }
-     }
-   }
+  // //  findTool(key: string) {
+  // //    for (let i = 0; i < this.tools.length - 1; i++){
+  // //      if (this.tools[i].$key === key) {
+  // //        return this.tools[i];
+  // //      }
+  // //    }
+  //  }
 }
