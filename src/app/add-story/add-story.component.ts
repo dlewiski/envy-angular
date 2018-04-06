@@ -17,9 +17,7 @@ export class AddStoryComponent implements OnInit {
 
   createStory(title: string, description: string, author: string, age: number, link: string, image: string) {
     let newStory: GreenStory = new GreenStory(title, description, author, age, link, image);
-    console.log(newStory);
     this.storyService.addStory(newStory);
-    console.log(newStory);
   }
 
 }
