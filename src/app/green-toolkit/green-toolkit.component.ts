@@ -8,7 +8,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
   styleUrls: ['./green-toolkit.component.css']
 })
 export class GreenToolkitComponent implements OnInit {
-  // @Input() childToolkit: GreenTool[];
+  @Input() childToolkit: GreenTool[];
   tools: FirebaseListObservable<any[]>;
 
   constructor() { }
