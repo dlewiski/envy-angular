@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GreenStory } from '../models/greenStory.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-story-display',

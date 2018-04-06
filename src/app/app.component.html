@@ -7,6 +7,7 @@
   </div>
   <h2>Your current environmental impact is: {{environmentalImpact}} </h2>
 
+  <router-outlet></router-outlet>
   <app-green-score [childScoreCard]="scoreCard" (clickedToggleScoreCard)="toggleScoreCard()"></app-green-score>
 
   <app-story-display [childStoryList]="stories"></app-story-display>
