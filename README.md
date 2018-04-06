@@ -32,7 +32,16 @@ http://www.greenmatters.com/
 * display total carbon emissions for top 5 polluting countries
 
 ### Database setup
-* Sign in or create a new firebase account
+* create the file to store the api key from the database, this file will be located in the app folder, name it api-keys.ts
+* Sign in or create a new firebase account (link to firebase)
+* Click create a new web app, a box will appear with all the information needed to connect this app to the database you just created
+* copy all that information and add to the app/api-keys.ts file in the following format: (show screenshot or format)
+* Then add all the dependencies, imports, etc (will copy these instructions at end of project)
+* change the rules in the firebase console
+* You will see two options, Cloud Firestore Beta and Realtime Database, click get started for Realtime Database
+* then select start in test mode, then click enable
+* you can double check this by going to the rules tab at the top of your database view and check to see that read and write are both set to true
+
 
 # Envy
 
