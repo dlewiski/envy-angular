@@ -1,7 +1,9 @@
 <h2>Tools to help you live healthier, happier, and reduce your environmental impact:</h2>
-<div *ngFor="let currentTool of childToolkit">
-  <p>{{currentTool.name}}</p>
-  <p>{{currentTool.description}}</p>
-  <p>{{currentTool.effectiveness}}</p>
-</div>
-<button routerLink='addtool'>Add new tool</button>
+<div *ngFor="let currentTool of tools | async">
+  <div class="card">
+    <div class="card-header"> {{currentTool.name}}</div>
+    <div class="card-body">Description: {{currentTool.description}}</div>
+    <div class="card-body">Effectiveness: {{currentTool.effectiveness}}</div>
+  </div>
+</div><br>
+<button routerLink='addtool' class="btn btn-info">Add new tool</button>

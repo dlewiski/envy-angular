@@ -1,3 +1,7 @@
 .jumbotron {
   margin: 100px;
 }
+
+#welcomeImg {
+  margin-bottom: 40px;
+}
