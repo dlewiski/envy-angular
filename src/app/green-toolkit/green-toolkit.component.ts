@@ -11,6 +11,7 @@ import { ToolkitService } from '../toolkit.service';
 })
 export class GreenToolkitComponent implements OnInit {
   tools: FirebaseListObservable<any[]>;
+  selectedTool: GreenTool;
 
   constructor(private toolkitService:ToolkitService) { }
 
