@@ -1,4 +1,18 @@
 <h2>Add a tool to your toolkit:</h2>
-<p>
-  add-tool works!
-</p>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="toolName">Name of tool:</label>
+      <input id="toolName" #newToolName>
+    </div>
+    <div class="form-group">
+      <label for="toolDescription">Name of tool:</label>
+      <input id="toolDescription" #newToolDescription>
+    </div>
+    <div class="form-group">
+      <label for="toolEffectiveness">Name of tool:</label>
+      <input id="toolEffectiveness" #newToolEffectiveness>
+    </div>
+    <button (click)="createTool(newToolName.value, newToolDescription.value, newToolEffectiveness.value); newToolName.value=''; newToolDescription.value=''; newToolEffectiveness.value='';" type="button" class="btn btn-success">ADD</button>
+  </form>
+</div>
