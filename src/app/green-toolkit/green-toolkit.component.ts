@@ -19,4 +19,8 @@ export class GreenToolkitComponent implements OnInit {
     this.tools = this.toolkitService.tools;
   }
 
+  getSelectedTool(){
+    this.selectedTool = this.toolkitService.findTool()
+  }
+
 }
