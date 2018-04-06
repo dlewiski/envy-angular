@@ -13,6 +13,7 @@ import { GreenScoreComponent } from './green-score/green-score.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedPipe } from './featured.pipe';
 import { NotFeaturedPipe } from './not-featured.pipe';
+import { AddToolComponent } from './add-tool/add-tool.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     GreenScoreComponent,
     NavComponent,
     FeaturedPipe,
-    NotFeaturedPipe
+    NotFeaturedPipe,
+    AddToolComponent
   ],
   imports: [
     BrowserModule,
