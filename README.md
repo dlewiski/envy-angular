@@ -19,10 +19,7 @@ http://www.greenmatters.com/
 * add story
 * sustainability toolkit
 
-### Component structure (day 2)
-*
-
-### Models (day 2)
+### Models (day 1)
 * greenStory
 * greenTool
 
@@ -33,6 +30,9 @@ http://www.greenmatters.com/
 ### Cool features if there is time (day 2)
 * connect to an API to display the worlds population in real time
 * display total carbon emissions for top 5 polluting countries
+
+### Database setup
+* Sign in or create a new firebase account
 
 # Envy
 
