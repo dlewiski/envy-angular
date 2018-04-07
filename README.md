@@ -12,6 +12,9 @@ This web application contains various tools to reduce your environmental impact 
 * Users can add tips/tools to the database
 * There is an environmental score tracker that is linked to a score card
 
+## Specifications
+* Will add more specs
+
 ## Setup/Installation Requirements
 
 #### You can view the application live by visiting:
